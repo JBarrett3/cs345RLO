@@ -1,4 +1,4 @@
-# Welcome to Infinitech!
+# Welcome to Infinitech Development!
 
 Hello there,
 
@@ -25,4 +25,6 @@ Mutation: DELETE FROM employees WHERE age < 0 or age > 110
 
 ## Testing
 
-Once you believe you have found all of the nonsense, you can run the test in test.py, which will provide feedback if there is anything you have missed.
+Once you believe you have found all of the nonsense, you can run the test in test.py: *python test.py* 
+
+This will provide feedback if there is anything you have missed. We note that this does depend on a proper installation of python. 
