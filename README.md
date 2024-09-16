@@ -1,2 +1,26 @@
-# cs345RLO
-Reusable Learning Object for CompSci345
+# Welcome to Infinitech!
+
+Hello there,
+
+We are excited for you to start your new job as a senior data analyst here at Infinitech. Your SQL skills made you a great candidate for this role, and will certainly aid you in many of your projects over the coming years. 
+
+## Your First Project 
+
+Your first project will be to clean our corporate employee archive, which contains all the information about the employees here at Infinitech. Unfortunately, the archive has been poorly maintained and is in need of significant refinement. Therefore, we are requesting that you use SQL queries to review the dataset, find anything that doesn't make sense, and then use SQL deletes/updates to correct the issues. 
+
+## The Dataset
+
+The dataset is in dataset.csv and referred to *employees* from here on.
+
+## Example
+
+You will need to use your own intuition to identify these instances, but we includes the following example to guide you:
+
+#### Identify nonsense
+Query: SELECT DISTINCT age FROM employees  
+Response: -1, 0, 24, 58, 223
+
+#### Correct nonsense
+Mutation: DELETE FROM employees WHERE age < 0 or age > 110
+
+## 
