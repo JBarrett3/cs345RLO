@@ -10,7 +10,7 @@ Your first project will be to clean our corporate employee archive, which contai
 
 ## The Dataset
 
-The dataset is in dataset.csv and referred to *employees* from here on.
+The dataset is in dataset.csv and referred to as *employees* from here on.
 
 ## Example
 
