@@ -23,4 +23,6 @@ Response: -1, 0, 24, 58, 223
 #### Correct nonsense
 Mutation: DELETE FROM employees WHERE age < 0 or age > 110
 
-## 
+## Testing
+
+Once you believe you have found all of the nonsense, you can run the test in test.py, which will provide feedback if there is anything you have missed.
